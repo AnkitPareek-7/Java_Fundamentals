@@ -13,7 +13,6 @@ The method is selected while the program is running, not during compilation.
 During Inheritance : A child class provides its own implementation of a method already defined in the parent class.
 */
 
-
 class Animal {
 
     void sound() {
@@ -45,9 +44,11 @@ public class RunTimePolymorphism {
         Dog d = new Dog();
         Cat c = new Cat();
 
-        a.sound();   //Animal makes sound
+                     // Outputs 
+        a.sound();   // Animal makes sound
         d.sound();   // Dog Barks !!
         c.sound();   // Cat Meow !
 
     }
 }
+

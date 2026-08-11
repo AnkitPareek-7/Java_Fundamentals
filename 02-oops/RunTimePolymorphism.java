@@ -41,9 +41,11 @@ class Cat extends Animal {
 public class RunTimePolymorphism {
     public static void main(String[] args) {
         
+        Animal a = new Animal();
         Dog d = new Dog();
         Cat c = new Cat();
 
+        a.sound();   //Animal makes sound
         d.sound();   // Dog Barks !!
         c.sound();   // Cat Meow !
 
